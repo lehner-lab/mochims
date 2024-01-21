@@ -11,7 +11,7 @@ Here you'll find an R package with all scripts to reproduce the figures and resu
 
 # Required Software
 
-To run the archstabms pipeline you will need the following software and associated packages:
+To run the mochims pipeline you will need the following software and associated packages:
 
 * **[_R_](https://www.r-project.org/)** (Cairo, bio3d, data.table, ggplot2, ggrepel, hexbin, plot3D, reshape2)
 
@@ -27,7 +27,7 @@ Make sure you have git and conda installed and then run (expected install time <
 # Install dependencies manually (preferably in a fresh conda environment)
 conda install -c conda-forge cairo r-base>4.0.0 r-bio3d r-cairo r-data.table r-devtools r-ggplot2 r-ggrepel r-hexbin r-plot3d r-reshape2 r-roxygen2
 
-# Open an R session and install the archstabms R package
+# Open an R session and install the mochims R package
 devtools::install_github("lehner-lab/mochims")
 ```
 
