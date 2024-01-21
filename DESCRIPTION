@@ -1,0 +1,19 @@
+Package: mochims
+Title: Analysis scripts to reproduce the figures and results from MoCHI manuscript
+Version: 0.0.0.9000
+Authors@R: person("Andre", "Faure", email = "ajfaure@gmail.com", role = c("aut", "cre"))
+Description: "MoCHI: neural networks to fit interpretable models and quantify energies, energetic couplings, epistasis and allostery from deep mutational scanning data", Faure and Lehner 2024
+Depends: R (>= 4.2.0)
+Imports:
+	Cairo,
+	bio3d,
+	data.table,
+	ggplot2,
+	ggrepel,
+	hexbin,
+	plot3D,
+	reshape2
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.0
