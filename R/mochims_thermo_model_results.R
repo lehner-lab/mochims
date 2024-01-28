@@ -61,6 +61,9 @@ mochims_thermo_model_results <- function(
   pred_dt <- model_results[['pred']]
   coef_dt <- model_results[['coef']]
 
+  #Add model name
+  coef_dt[, dataset_model := basename(mochi_outpath)]
+
   #Translate positions
   if(length(position_dict)!=0){
     for(i in rev(names(position_dict))){
