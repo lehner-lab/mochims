@@ -17,7 +17,7 @@ To run the mochims pipeline you will need the following software and associated 
 
 # Required Data
 
-Fitness scores, inferred free energy changes and required miscellaneous files should be downloaded from **[here]()** and unzipped in your project directory (see 'base_dir' option) i.e. where output files should be written.
+Fitness scores, inferred free energy changes and required miscellaneous files should be downloaded from **[here](https://crgcnag-my.sharepoint.com/:u:/g/personal/afaure_crg_es/ETbGDjFqLJtAipclgbtAltMBd-0ybdUDhz1XEUvMuMQ33g?e=l3ODlg)** and unzipped in your project directory (see 'base_dir' option) i.e. where output files should be written.
 
 # Installation Instructions
 
